@@ -1,8 +1,4 @@
 pymongo
-openai
 langchain
 langchain-community
-pypdf
 langchain-openai
-sentence-transformers
-ollama
