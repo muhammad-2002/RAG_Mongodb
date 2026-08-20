@@ -1,0 +1,32 @@
+[project]
+name = "rag-mongo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Muhammad", email = "masumbilla10104@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "certifi>=2026.7.22",
+    "fastapi>=0.141.1",
+    "google-genai>=2.19.0",
+    "ipykernel>=7.3.0",
+    "langchain>=1.3.15",
+    "langchain-community>=0.4.2",
+    "langchain-openai>=1.5.2",
+    "ollama>=0.6.2",
+    "openai>=3.3.0",
+    "pymongo>=4.17.0",
+    "pypdf>=6.16.1",
+    "python-dotenv>=1.2.3",
+    "sentence-transformers>=6.0.0",
+    "uvicorn[standard]>=0.52.4",
+]
+
+[project.scripts]
+rag-mongo = "rag_mongo:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
