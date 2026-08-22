@@ -1,35 +1,12 @@
-# Python-generated files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Build files
-build/
-dist/
-wheels/
-*.egg-info/
-
-# Virtual environments
 .venv/
-venv/
-env/
-
-# Environment variables
+.vercel/
 .env
 .env.*
 !.env.example
-
-# Vercel
-.vercel/
-
-# Cache / ML files
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
 .cache/
-.pytest_cache/
 .ipynb_checkpoints/
-
-# Large model files
-models/
-*.bin
-*.pt
-*.pth
-*.safetensors
